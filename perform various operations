@@ -3,7 +3,7 @@
 int main() {
     int arr[100], n, choice, pos, value, i;
 
-    // Initial array input
+    Initial array input
     printf("Enter number of elements: ");
     scanf("%d", &n);
 
@@ -23,7 +23,7 @@ int main() {
 
         switch(choice) {
 
-            case 1: // Insertion
+            case 1: Insertion
                 printf("Enter position to insert (1 to %d): ", n+1);
                 scanf("%d", &pos);
 
@@ -44,7 +44,7 @@ int main() {
                 printf("Value inserted successfully.\n");
                 break;
 
-            case 2: // Deletion
+            case 2:  Deletion
                 printf("Enter position to delete (1 to %d): ", n);
                 scanf("%d", &pos);
 
@@ -61,7 +61,7 @@ int main() {
                 printf("Element deleted successfully.\n");
                 break;
 
-            case 3: // Display
+            case 3:  Display
                 printf("Array elements:\n");
                 for(i = 0; i < n; i++) {
                     printf("%d ", arr[i]);
